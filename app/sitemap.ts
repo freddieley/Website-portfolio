@@ -1,0 +1,1 @@
+import type {MetadataRoute} from "next";import {projects} from "./projects";export default function sitemap():MetadataRoute.Sitemap{return[{url:"https://bluo.co.uk/",lastModified:new Date()},...projects.map(p=>({url:"https://bluo.co.uk/work/"+p.slug,lastModified:new Date()}))]}
