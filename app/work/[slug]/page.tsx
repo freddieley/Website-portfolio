@@ -130,7 +130,7 @@ export default async function ProjectPage({
 
       <footer>
         <span>BLUO / CONCEPT PROJECT</span>
-        <a href="mailto:freddie.ley@icloud.com?subject=Website%20project%20enquiry">
+        <a href="https://bluo.co.uk/#contact">
           {p.cta} with Bluo ↗
         </a>
       </footer>
